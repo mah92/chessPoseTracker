@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simParams>
+	<!-- ox: 298.485405, oy:226.525456, fovX:92.107164, fovY:75.744182 -->
+	<idealParams1 resolutionScale="1." width="640" height="480" oxOffset="-21.014595" oyOffset="-12.974544" f="307.960654" desc = "opencv"/>
+	<staticParams1  maxLensIterations="100" maxPixError="0.1" k1="-0.428129" k2="0.158059" t1="0.000245" t2="-0.002286" k3="-0.029194" k4="0.000000" k5="0.000000" k6="0.000000" desc = "opencv"/>
+	
+	<!-- ox:305.599 , oy:226.736, fovX:, fovY: -->
+	<idealParams resolutionScale="1." width="640" height="480" oxOffset="-14.401" oyOffset="-13.264" f="307.607" desc = "agisoft-lens"/>
+	<staticParams  maxLensIterations="100" maxPixError="0.1" k1="-0.390024" k2="0.111124" t1="-0.0012744" t2="-0.0081517" k3="-0.00842763" k4="0.000000" k5="0.000000" k6="0.000000" desc = "agisoft-lens"/>
+	
+	<!-- ox:305.599 , oy:226.736, fovX:, fovY: -->
+	<idealParams3 resolutionScale="1." width="640" height="480" oxOffset="0" oyOffset="0." f="307.607" desc = "fake"/>
+	<staticParams3  maxLensIterations="100" maxPixError="0.1" k1="0." k2="0." t1="0.00" t2="0.00" k3="0.00" k4="0.000000" k5="0.000000" k6="0.000000" desc = "fake"/>
+</simParams>
